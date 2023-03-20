@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+#news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.news-item {
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+.news-item.expanded .news-summary {
+    display: none;
+}
+
+.news-item.expanded .news-details {
+    display: block;
+}
+
+.news-details {
+    display: none;
+}
